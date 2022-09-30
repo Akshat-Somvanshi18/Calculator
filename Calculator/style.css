@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(254, 246, 235) ;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+#keys{
+    border: 2px solid #084374;
+    
+}
+
+h2{
+    font-family: 'Arima',cursive;
+    margin-bottom: 15px;
+    background-color: rgb(251, 213, 213);
+    text-align: center;
+}
+
+#dscreen1,#dscreen2{
+    width: 412px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #dddaff;
+    border: 2px solid #084374;
+    text-align: end; 
+}
+#dscreen1{
+    border-bottom: 0px;
+}
+#dscreen2{
+    height:35px;
+    border-top: 0px;
+    position: relative;
+    bottom: 2px;
+}
+@keyframes dscreen_anime1 {
+    to{
+        height: 35px;
+        font-size: 17px;
+        color: grey;
+        font-weight: light;
+    } 
+}
+@keyframes dscreen_anime2 {
+    to{
+        height: 70px;
+    } 
+}
+
+
+
+button{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #96a9c7;
+    border-radius: 4px;
+   
+}
+
+button:hover{
+   background-color: #a4bade;
+}
+ 
+@media screen and (max-width: 417px)
+{
+    #dscreen1{
+        width: 288px;
+    }
+    #dscreen2{
+        width: 288px;
+    }
+    button{
+        width: 55px;
+        height: 45px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #sbutton{
+        width: 292px;
+        height: 35px;
+    }
+    .tbutton{
+        width: 93px;
+        height: 45px;
+    }
+    
+}
+.material-icons{
+    background-color:#96a9c7 ;
+}
+sup{
+    background-color: #96a9c7;
+}
+table h1{
+    background-color: #96a9c7;
+}
+
+sup:hover , h1:hover {
+    background-color:#a4bade;
+
+}
+
